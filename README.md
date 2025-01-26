@@ -34,6 +34,15 @@ The dataset used for training the model includes historical match data from prev
 
 You can find the dataset in the `data/` folder.
 
+## Model Training and Evaluation
+
+The model has been trained using the following steps:
+Data Preprocessing: Missing values were handled, and categorical features were encoded.
+Feature Engineering: New features, such as the average player performance and match venue effects, were derived.
+Model Selection: Various machine learning algorithms were evaluated, including Logistic Regression, Decision Trees, and Random Forest.
+Model Evaluation: The model's accuracy was tested using cross-validation and evaluation metrics like accuracy score and confusion matrix.
+
+
 ## Installation
 
 To get started with this project, clone the repository to your local machine and install the necessary dependencies.
@@ -43,10 +52,3 @@ git clone https://github.com/ramcharanpeesapati/IPL_Winning_Team_Prediction_with
 cd IPL_Winning_Team_Prediction_with_ML
 pip install -r requirements.txt 
 
-## Model Training and Evaluation
-
-The model has been trained using the following steps:
-Data Preprocessing: Missing values were handled, and categorical features were encoded.
-Feature Engineering: New features, such as the average player performance and match venue effects, were derived.
-Model Selection: Various machine learning algorithms were evaluated, including Logistic Regression, Decision Trees, and Random Forest.
-Model Evaluation: The model's accuracy was tested using cross-validation and evaluation metrics like accuracy score and confusion matrix.
