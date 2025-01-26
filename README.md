@@ -37,10 +37,10 @@ You can find the dataset in the `data/` folder.
 ## Model Training and Evaluation
 
 The model has been trained using the following steps:
-Data Preprocessing: Missing values were handled, and categorical features were encoded.
-Feature Engineering: New features, such as the average player performance and match venue effects, were derived.
-Model Selection: Various machine learning algorithms were evaluated, including Logistic Regression, Decision Trees, and Random Forest.
-Model Evaluation: The model's accuracy was tested using cross-validation and evaluation metrics like accuracy score and confusion matrix.
+- Data Preprocessing: Missing values were handled, and categorical features were encoded.
+- Feature Engineering: New features, such as the average player performance and match venue effects, were derived.
+- Model Selection: Various machine learning algorithms were evaluated, including Logistic Regression, Decision Trees, and Random Forest.
+- Model Evaluation: The model's accuracy was tested using cross-validation and evaluation metrics like accuracy score and confusion matrix.
 
 
 ## Installation
